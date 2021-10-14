@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="FluentValidation" Version="10.3.3" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.3.3" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.12.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Yaman.Blog.BackEnd.Common\Yaman.Blog.BackEnd.Common.csproj" />
+    <ProjectReference Include="..\Yaman.Blog.BackEnd.DataAcess\Yaman.Blog.BackEnd.DataAcess.csproj" />
+    <ProjectReference Include="..\Yaman.Blog.BackEnd.Dtos\Yaman.Blog.BackEnd.Dtos.csproj" />
+  </ItemGroup>
+
+</Project>
